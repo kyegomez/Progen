@@ -1,15 +1,15 @@
 [![Multi-Modality](agorabanner.png)](https://discord.gg/qUtxnK2NMf)
 
-# Paper-Implementation-Template
-A simple reproducible template to implement AI research papers 
+# Progen
+Implementation of Progen in Pytorch, from the paper "ProGen: Language Modeling for Protein Generation"
 
-Paper Link
+GPT for proteins sequences
+
+[Paper Link](https://arxiv.org/pdf/2004.03497.pdf)
 
 # Appreciation
 * Lucidrains
 * Agorians
-
-
 
 # Install
 
