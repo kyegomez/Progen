@@ -75,8 +75,6 @@ class LayerNorm(nn.Module):
         return x
     
 
-
-
 def fixed_pos_embeddings(seq, dim):
     """
     Fixed pos embedding
@@ -123,24 +121,6 @@ def rotate_every_two(x):
         "... d r -> ... (d r)"
     )
 
-
-# def apply_rotary_pos_emb(x, sincos):
-#     """
-#     Rotary position embedding
-
-#     sincos = fixed_pos_embeddings(4, 4)
-#     print(sincos)
-#     x = torch.randn(1, 4, 4)
-#     x = apply_rotary_pos_emb(x, sincos)
-#     """
-#     sin, cos = sincos
-#     rot_dim = sin.shape[-1]
-#     x, x_pass = x[..., :rot_dim], x[..., rot_dim:]
-
-#     x = (x * cos) + (rotate_every_two(x) * sin)
-#     return torch.cat((x, x_pass), axis=-1)
-
-# shift tokens by 1 to the right, and wrap the last token to the first position
 
 def shift_tokens(x):
     """
