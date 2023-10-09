@@ -12,8 +12,18 @@ GPT for proteins sequences
 * Agorians
 
 # Install
+`pip install progen-torch`
 
 # Usage
+```python
+from progen_torch import ProGen
+
+x = torch.randint(0, 100, (1, 1024))
+model = ProGenBase(num_tokens=100, dim=512, seq_len=1024, depth=6)
+outputs = model(x)
+print(outputs)
+
+```
 
 # Architecture
 
