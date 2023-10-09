@@ -20,10 +20,6 @@ import torch
 from progen.model import ProGen
 
 x = torch.randint(0, 100, (1, 1024))
-import torch
-from progen.model import ProGen
-
-x = torch.randint(0, 100, (1, 1024))
 
 # Initialize the model with specific parameters
 model = ProGen(
