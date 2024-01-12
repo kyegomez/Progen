@@ -79,13 +79,8 @@ graph TD
 
 The Uniparc, UniprotKB, SWISS-PROT, TrEMBL, Pfam, and NCBI taxonomy datasets are filtered and merged in step B. The aggregated dataset is then split into training, in-distribution test, and out-of-distribution test sets in step H.
 
-# Architecture
-
-# Todo
-
 
 # License
 MIT
 
 # Citations
-
